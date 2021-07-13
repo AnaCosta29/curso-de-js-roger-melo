@@ -78,7 +78,8 @@ cat.age+=2
 */
 
 const isAnSUV = car => {
-  if (car === 'Honda HR-V' || car === 'Jeep Renegade' || car === 'Ford EcoSport' || car === 'Hyundai iX35') {
+  let modelCar=['Honda HR-V','Jeep Renegade' ,'Ford EcoSport','Hyundai iX35']
+  if (car.includes(modelCar)) {
     return true
   }
 
